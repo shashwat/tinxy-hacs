@@ -11,17 +11,19 @@ Install HACS
 https://hacs.xyz/
 
 
-Add repository to hacs 
+Add custom repository to hacs 
 
 ```
 https://github.com/arevindh/tinxy-hacs
 ```
 
-Install Tinxy Smart Devices from hacs
+Install `Tinxy Smart Devices` from `hacs`
 
 Restart Home Assistant
 
-Get the api key from application 
+Get the `api key` from the Tinxy application.
+
+Add the following config in `configuration.yaml` which is located in `<PATH_TO_HOME_ASSISTANT_CONFIG_DIR>/configuration.yaml`
 
 ```
 switch:
